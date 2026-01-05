@@ -74,3 +74,26 @@ body {
   min-height: 100vh;
   background: url('pôster.jpg') center / cover no-repeat;
 }
+.btn {
+  display: block;
+  width: 90%;
+  max-width: 320px;
+  margin: 25px auto 0 auto;
+  padding: 16px 0;
+
+  background-color: #e50914;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+
+  box-shadow: 0 10px 30px rgba(229, 9, 20, 0.5);
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #f6121d;
+  transform: scale(1.03);
+}
