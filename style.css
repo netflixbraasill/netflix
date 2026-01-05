@@ -97,3 +97,6 @@ body {
   background-color: #f6121d;
   transform: scale(1.03);
 }
+.plan-box {
+  text-align: center;
+}
